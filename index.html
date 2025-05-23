@@ -1,44 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BGB News</title>
+    <title>Página com Links</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 20px;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
         }
-        header {
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 1px solid #e4e4e4;
-        }
-        main {
+        .container {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
+            margin: 0 auto;
         }
-        article {
-            margin-bottom: 40px;
-            border-bottom: 1px solid #e4e4e4;
-            padding-bottom: 20px;
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 10px 0;
+            display: inline-block;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #f4f4f4;
-            border-top: 1px solid #e4e4e4;
+        a:hover {
+            text-decoration: underline;
+            color: #004499;
         }
     </style>
-<h1>BGB NEWS</h1>
 </head>
 <body>
-    <header>
+    <div class="container">
+        <h1>Página de Exemplo com Links</h1>
+        
+        <!-- Primeiro Link -->
+        <p><a href="#sobre">Sobre Nós</a></p>
+        
+        <!-- Segundo Link -->
+        <p><a href="https://www.google.com" target="_blank">Abrir Google</a></p>
+        
+        <!-- Terceiro Link -->
+        <p><a href="contato.html">Contato</a></p>
+
+        <section id="sobre" style="margin-top: 100px;">
+            <h2>Sobre Nós</h2>
+            <p>Esta é uma seção de exemplo que pode ser acessada através do primeiro link.</p>
+        </section>
+    </div>
+</body>
+</html>
         <h1></h1>
     </header>
     
